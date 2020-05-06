@@ -1,0 +1,87 @@
+html{
+  background-size: cover;
+  background:url("h3.jpg")no-repeat center center fixed;
+  overflow-y: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  no-repeat center center;
+  min-height: 30rem;
+}
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: brown;
+  line-height: 80px;
+
+}
+nav ul{
+  float: right;
+  margin: 0;
+  margin-right: 1.9rem;
+
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+img{
+  width: 14%;
+  margin-left:1.9rem;
+}
+nav ul li:hover{
+  background : url("file:///home/komal/Downloads/help hand/h1.jpeg");
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.section{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 4%;
+}
+.section h1{
+  color: deeppink;
+  line-height: 50px;
+
+}
+.section p{
+  color: darkgreen;
+}
+.button {
+    background-color: #34c5f0;
+    color: white;
+    padding: 22px 42px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+}
+.features{
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+.features button{
+  padding: 0.7rem 2rem;
+  margin-right: 2rem;
+}
+.kom{
+  font-style: italic;
+  color: hotpink;
+}
